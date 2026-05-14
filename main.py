@@ -46,7 +46,15 @@ while True:
         total_descontos += valor_desconto
         total_liquido += valor_final
     
-   
+    elif opcao == '2':
+        print("\n=== RESUMO PARCIAL ===")
+        if total_vendas == 0:
+            print("Nenhuma venda registrada até o momento.")
+        else:
+            print(f"Total de vendas realizadas: {total_vendas}")
+            print(f"Total bruto vendido: R$ {total_bruto:.2f}")
+            print(f"Total de descontos concedidos: R$ {total_descontos:.2f}")
+            print(f"Total líquido vendido: R$ {total_liquido:.2f}")
 
 
 
