@@ -27,9 +27,9 @@ while True:
         percentual_desc = 0
         if valor_bruto < 100:
             percentual_desc = 0
-        elif 100 > valor_bruto < 499.99:
+        elif valor_bruto < 500:
             percentual_desc = 5
-        elif 500 > valor_bruto < 999.99:
+        elif valor_bruto < 1000:
             percentual_desc = 10
         else:
             percentual_desc = 15
