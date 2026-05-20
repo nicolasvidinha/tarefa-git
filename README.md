@@ -38,3 +38,4 @@ comando 9:
 git commit -m "implementa segunda opcao"
 
 comando 10:
+git commit -m "implementa a terceira opcao e finaliza o codigo"
